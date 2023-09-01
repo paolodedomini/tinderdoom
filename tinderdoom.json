@@ -75,109 +75,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Pear_No Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f861aa10520781991440f52de3d233620ebd01750221116e6a24881c8329a354_Pear_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/f861aa10520781991440f52de3d233620ebd01750221116e6a24881c8329a354_Pear_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage0.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage0.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage1.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "uiback.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "uiback.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage2.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage3.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-flusso.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-flusso.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello plutonio.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello plutonio.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "flusso.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "socket-barre-plutonio.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "socket-barre-plutonio.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "socket-barre-plutonio2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "socket-barre-plutonio2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "socket-barre-plutonio3.png",
         "kind": "image",
         "metadata": "",
@@ -202,32 +99,6 @@
         "name": "basic-item.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Black Square Decorated Button_Hovered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Black Square Decorated Button_Hovered.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
-          "name": "Black Square Decorated Button_Hovered.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Black Square Decorated Button_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Black Square Decorated Button_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
-          "name": "Black Square Decorated Button_Idle.png"
-        }
       },
       {
         "alwaysLoaded": false,
@@ -273,73 +144,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "flusso2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "flusso3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "flusso4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "flusso5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "flusso6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/uiback.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/uiback.png2.png\"}",
         "name": "uiback.png2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello plutonio2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello plutonio2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "barre-plutonio.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "barre-plutonio.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -363,24 +171,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "backtesto.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"backtesto.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "backtesto.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "backtesto2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "backtesto2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "backtesto3.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"backtesto3.png\",\"extension\":\".png\",\"pskl\":{}}",
@@ -390,64 +180,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "background-stage4.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage4.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage5.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage5.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-flusso2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-flusso2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-flusso3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-flusso3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-flusso4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-flusso4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "flusso7.png",
         "kind": "image",
         "metadata": "",
         "name": "flusso7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello plutonio3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello plutonio3.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -462,48 +198,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "sportello-flusso5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-flusso5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sportello-flusso6.png",
         "kind": "image",
         "metadata": "",
         "name": "sportello-flusso6.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage6.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage6.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage7.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage7.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "background-stage8.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "background-stage8.jpg",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -539,91 +239,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "sforzo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../lavoro/natale2023/stage-1/UI-barra-plutonio.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../lavoro/natale2023/stage-1/UI-barra-plutonio.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "UI-sforzo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "UI-sforzo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-sforzo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-sforzo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sportello-sforzo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sportello-sforzo2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sportello-sforzo3.png",
         "kind": "image",
         "metadata": "",
         "name": "sportello-sforzo3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo-socket.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo-socket.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo-socket2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo-socket2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo-socket3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo-socket3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo-socket4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo-socket4.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -642,42 +261,6 @@
         "kind": "image",
         "metadata": "",
         "name": "socket-sforzo-full.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "UI-sforzo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "UI-sforzo2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "UI-sforzo3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "UI-sforzo3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sforzo3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sforzo3.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1148,7 +731,16 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "VerticalSpriteSheetAnimator",
+          "type": "SpriteSheet::VerticalSpriteSheetAnimator"
+        }
+      ]
     },
     {
       "b": 0,
@@ -2346,7 +1938,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "sforzo4.png",
                       "points": [],
                       "originPoint": {
@@ -2375,7 +1967,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "UI-sforzo4.png",
                       "points": [],
                       "originPoint": {
@@ -2809,6 +2401,54 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Logica Generale Visualizzazione UI \n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "background",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "textUI",
+                "\"UI\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 135,
+            "g": 235,
+            "r": 136,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Interazione Oggetti Base"
         },
         {
@@ -2943,54 +2583,6 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Logica Generale Visualizzazione UI \n"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "background",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "textUI",
-                "\"UI\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 135,
-            "g": 235,
-            "r": 136,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Intreazione oggetti di scena"
         },
         {
@@ -2998,7 +2590,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Flusso canalizzatore",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3036,7 +2627,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Sportello flusso",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3168,7 +2758,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Sportello plutonio",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3330,7 +2919,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Barre Plutonio",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3436,29 +3024,9 @@
                     "isMoving",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "ObjectActive",
-                    "=",
-                    "1"
-                  ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "barre_plutonio",
-                    "=",
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "MettreXY"
@@ -3473,6 +3041,16 @@
                 },
                 {
                   "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "barre_plutonio",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
@@ -3481,7 +3059,23 @@
                     "100"
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "ObjectActive",
+                    "=",
+                    "1"
+                  ]
+                }
               ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3565,12 +3159,6 @@
                         "",
                         "Right"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -3743,6 +3331,16 @@
                     "=",
                     "637"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "barre_plutonio",
+                    "isMoving",
+                    "False"
+                  ]
                 }
               ]
             }
@@ -3754,7 +3352,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Pulsante sforzo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3894,7 +3491,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Sforzo Liquido",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3931,6 +3527,12 @@
                     "isMoving",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3997,16 +3599,6 @@
                     "isMoving",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "ObjectActive",
-                    "=",
-                    "2"
-                  ]
                 }
               ],
               "actions": [
@@ -4032,7 +3624,23 @@
                     "100"
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "ObjectActive",
+                    "=",
+                    "2"
+                  ]
+                }
               ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4076,15 +3684,56 @@
                         "isSforzoInSocket",
                         "True"
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
                     },
                     {
                       "type": {
-                        "value": "ChangeAnimation"
+                        "inverted": true,
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "sforzo_socket",
+                        "sforzo",
+                        "socket",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "sforzo",
+                        "isMoving",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "sforzo",
                         "=",
-                        "1"
+                        "487",
+                        "=",
+                        "307"
                       ]
                     }
                   ]
@@ -4096,66 +3745,23 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonReleased"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "Right"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "sforzo",
-                    "socket",
-                    "",
-                    "",
-                    ""
+                    "isSforzoInSocket",
+                    "True"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "sforzo",
-                    "isMoving",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "sforzo",
+                    "sforzo_socket",
                     "=",
-                    "487",
-                    "=",
-                    "307"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "sforzo",
-                        "=",
-                        "0"
-                      ]
-                    }
+                    "1"
                   ]
                 }
               ]
@@ -4200,12 +3806,12 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeAnimation"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "sforzo_socket",
-                    "=",
-                    "0"
+                    "sforzo",
+                    "isMoving",
+                    "False"
                   ]
                 }
               ]
@@ -4562,7 +4168,6 @@
       "shortDescription": "Animate a tiled sprite from a sprite sheet.",
       "version": "1.0.0",
       "description": [
-        "",
         "Animate images from a sprite sheet by using a tiled sprite.",
         "",
         "## How to use",
