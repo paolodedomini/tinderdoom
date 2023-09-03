@@ -180,15 +180,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "flusso7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "flusso7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "sportello-plutonio.png",
         "kind": "image",
         "metadata": "",
@@ -281,6 +272,51 @@
         "name": "UI-sforzo4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flusso9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flusso9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "socket-plutonio-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "socket-plutonio-on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-stage-2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-stage-2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-stage10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-stage10.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "millenuim-camper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "millenuim-camper.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -353,7 +389,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "closeButton",
+      "name": "Button",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -664,7 +700,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Room-1\"",
+                    "\"Camper-interno\"",
                     ""
                   ]
                 }
@@ -745,8 +781,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Room_451",
-      "name": "Room-1",
+      "mangledName": "Camper_45interno",
+      "name": "Camper-interno",
       "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -799,6 +835,12 @@
           "name": "ObjectActive",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "isSolved",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -869,7 +911,7 @@
           "name": "flusso",
           "persistentUuid": "7c8b93d2-6d46-4119-9cf3-c043c3f83d2b",
           "width": 0,
-          "x": 1027,
+          "x": 1033,
           "y": 22,
           "zOrder": 4,
           "numberProperties": [],
@@ -996,7 +1038,7 @@
           "depth": 0,
           "height": 117,
           "layer": "",
-          "name": "NewParticlesEmitter",
+          "name": "emitterFlusso",
           "persistentUuid": "65e6b36c-21a9-43ab-ae5f-de2a991196e3",
           "width": 117,
           "x": 1097,
@@ -1007,7 +1049,7 @@
           "initialVariables": []
         },
         {
-          "angle": 356,
+          "angle": 349,
           "customSize": true,
           "depth": 0,
           "height": 191,
@@ -1015,23 +1057,24 @@
           "name": "dialogo",
           "persistentUuid": "78687876-c0ae-4e9b-ab6e-ae18e14cfc84",
           "width": 626,
-          "x": 325,
-          "y": 348,
+          "x": 336,
+          "y": 329,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 356,
-          "customSize": false,
-          "height": 0,
+          "angle": 350,
+          "customSize": true,
+          "depth": 0,
+          "height": 69,
           "layer": "Dialoghi",
           "name": "textDialogo",
           "persistentUuid": "d04500ad-b0d9-4b71-8d56-0335c028067d",
-          "width": 0,
-          "x": 385,
-          "y": 389,
+          "width": 509,
+          "x": 382,
+          "y": 363,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1042,11 +1085,11 @@
           "customSize": false,
           "height": 0,
           "layer": "Dialoghi",
-          "name": "closeButton",
+          "name": "Button",
           "persistentUuid": "1fcdad65-dc9b-4c77-9462-ca48c73283f6",
           "width": 0,
-          "x": 860,
-          "y": 473,
+          "x": 870,
+          "y": 414,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1134,6 +1177,52 @@
               "name": "nome",
               "type": "string",
               "value": "button_sforzo"
+            }
+          ]
+        },
+        {
+          "angle": 353,
+          "customSize": true,
+          "depth": 0,
+          "height": 149,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "2d410111-40a7-43a8-8277-a1a32e5b7faf",
+          "width": 105,
+          "x": 250,
+          "y": 202,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "Finestrino"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 45,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "a78631a9-97cb-420c-a707-bc10a8316e9d",
+          "width": 87,
+          "x": 422,
+          "y": 245,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "Scottex"
             }
           ]
         }
@@ -1366,7 +1455,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "flusso7.png",
+                      "image": "flusso9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1382,20 +1471,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 6
+                            "x": 0,
+                            "y": 4
                           },
                           {
-                            "x": 183,
-                            "y": 6
+                            "x": 175,
+                            "y": 4
                           },
                           {
-                            "x": 183,
-                            "y": 176
+                            "x": 175,
+                            "y": 171
                           },
                           {
-                            "x": 6,
-                            "y": 176
+                            "x": 0,
+                            "y": 171
                           }
                         ]
                       ]
@@ -1428,6 +1517,54 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "socket-barre-plutonio3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 38,
+                            "y": 4
+                          },
+                          {
+                            "x": 38,
+                            "y": 84
+                          },
+                          {
+                            "x": 4,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "socket-plutonio-on.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1783,7 +1920,7 @@
           "flow": 5,
           "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 10,
-          "name": "NewParticlesEmitter",
+          "name": "emitterFlusso",
           "particleAlpha1": 204,
           "particleAlpha2": 0,
           "particleAlphaRandomness1": 0,
@@ -1792,16 +1929,16 @@
           "particleAngle2": 10,
           "particleAngleRandomness1": 0,
           "particleAngleRandomness2": 0,
-          "particleBlue1": 51,
-          "particleBlue2": 44,
+          "particleBlue1": 33,
+          "particleBlue2": 134,
           "particleGravityX": 0,
           "particleGravityY": 0,
-          "particleGreen1": 255,
-          "particleGreen2": 117,
+          "particleGreen1": 211,
+          "particleGreen2": 233,
           "particleLifeTimeMax": 1,
           "particleLifeTimeMin": 0.5,
-          "particleRed1": 75,
-          "particleRed2": 12,
+          "particleRed1": 126,
+          "particleRed2": 184,
           "particleSize1": 100,
           "particleSize2": 100,
           "particleSizeRandomness1": 0,
@@ -2170,6 +2307,18 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -2219,17 +2368,93 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NewParticlesEmitter"
+                "emitterFlusso"
               ]
             },
             {
               "type": {
-                "value": "HideLayer"
+                "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Dialoghi\""
               ]
+            }
+          ],
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "DialogBox#0",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "textDialogo",
+                        "=",
+                        "\"GNAMOVESE, io vado in cabina di comando, te intanto dai energia SMODATA al MILLENIUM CAMPER\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialoghi\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "textDialogo",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ]
         },
@@ -2246,150 +2471,412 @@
           "comment": "Visualizzazione dialoghi"
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DialogBox#1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "isFlussoActive",
-                "True"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isFlussoActive",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi\"",
+                    "<=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"Mi pareva di aver detto che abbiamo bisogno di potenza SMODATA, devi fare di meglio\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer_box_messaggi\"",
-                "<=",
-                "5"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi\"",
+                    ">=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialoghi\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "textDialogo",
-                "=",
-                "\"Dio cane! stiamo andando ancora lenti!\nArriveremo a TinderDOOM troppo tardi.\nAbbiamo bisogno di potenza\""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DialogBox#2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "closeButton",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isSforzoInSocket",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi_2\"",
+                    "<=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"SFORZO SPRAY! Il mio camper lo adora! Ma non basta\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi_2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi_2\"",
+                    ">=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"timer_box_messaggi_2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialoghi\""
-              ]
-            },
-            {
-              "type": {
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer_box_messaggi\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "isFlussoActive",
-                "False"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DialogBox#3",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer_box_messaggi\"",
-                ">=",
-                "5"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isSolved",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"ORA SI!!! Ma quanto cazzo c'hai messo, \nsei un disagiato (porcoddio).\nOra allacciati le cinture...Raggiungeremo i 130km/h!!!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Button",
+                    "=",
+                    "\"VAI!\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Button",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialoghi\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"mainMenu\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialoghi\""
-              ]
-            },
-            {
-              "type": {
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"timer_box_messaggi\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "textDialogo",
-                "=",
-                "\"\""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2430,11 +2917,45 @@
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "HideLayer"
               },
               "parameters": [
                 "textUI",
                 "\"UI\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "isSforzoInSocket",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "isFlussoActive",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "isSolved",
+                "True"
               ]
             }
           ]
@@ -2570,6 +3091,62 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "basic_item",
+                    "nome",
+                    "=",
+                    "\"Finestrino\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textUI",
+                    "=",
+                    "\"Un finestrino. Per guardare. Fuori.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "basic_item",
+                    "nome",
+                    "=",
+                    "\"Scottex\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textUI",
+                    "=",
+                    "\"Scottex, non serve finche' non serve\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2613,7 +3190,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "NewParticlesEmitter",
+                    "emitterFlusso",
                     ""
                   ]
                 }
@@ -3131,6 +3708,16 @@
                       "parameters": [
                         "isPlutonioInSocket",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "socket",
+                        "=",
+                        "1"
                       ]
                     }
                   ]
@@ -3684,6 +4271,15 @@
                         "isSforzoInSocket",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"timer_box_messaggi_2\""
+                      ]
                     }
                   ]
                 },
@@ -3734,6 +4330,16 @@
                         "487",
                         "=",
                         "307"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "sforzo",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -3822,6 +4428,17 @@
               "actions": []
             }
           ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
           "parameters": []
         }
       ],
@@ -3929,8 +4546,334 @@
           "isLocked": false,
           "name": "Dialoghi",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "VerticalSpriteSheetAnimator",
+          "type": "SpriteSheet::VerticalSpriteSheetAnimator"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Camper_45viaggio",
+      "name": "Camper-viaggio",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.9610368693714719,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "Background",
+          "persistentUuid": "a223432d-6503-4bdf-94f6-a09167c1ff04",
+          "sealed": true,
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "camper",
+          "persistentUuid": "2444e50d-f2e1-42a7-a58d-2170ac4ec0fd",
+          "width": 0,
+          "x": 663,
+          "y": 152,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "motori",
+          "persistentUuid": "d4ffe881-c0d6-479b-9bd6-28da3d16aebf",
+          "width": 0,
+          "x": 836,
+          "y": 676,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background-stage10.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 800
+                          },
+                          {
+                            "x": 0,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "camper",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "millenuim-camper.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 256,
+                            "y": 3
+                          },
+                          {
+                            "x": 256,
+                            "y": 526
+                          },
+                          {
+                            "x": 0,
+                            "y": 526
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 90,
+          "emitterForceMax": 200,
+          "emitterForceMin": 45,
+          "flow": 45,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 300,
+          "name": "motori",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 20,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"camper\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "motori",
+                "camper",
+                "0",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": []
         }
       ],
@@ -8698,7 +9641,7 @@
   ],
   "externalLayouts": [
     {
-      "associatedLayout": "Room-1",
+      "associatedLayout": "Camper-interno",
       "name": "UIlayout",
       "instances": [
         {
