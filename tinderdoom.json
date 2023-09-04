@@ -317,23 +317,29 @@
         "name": "millenuim-camper.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-dogana.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-dogana.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-dogana2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-dogana2.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 40,
-      "name": "textback",
-      "tags": "",
-      "texture": "backtesto3.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 46,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
     {
       "assetStoreId": "",
       "height": 32,
@@ -367,7 +373,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "textUI",
+      "name": "textDialogo",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -377,7 +383,7 @@
       "behaviors": [],
       "string": "Text",
       "font": "NanumPenScript-Regular.ttf",
-      "textAlignment": "center",
+      "textAlignment": "left",
       "characterSize": 35,
       "color": {
         "b": 0,
@@ -399,34 +405,7 @@
       "behaviors": [],
       "string": "Chiudi",
       "font": "NanumPenScript-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 3,
-        "g": 3,
-        "r": 3
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "textDialogo",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "string": "Text",
-      "font": "NanumPenScript-Regular.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 35,
       "color": {
         "b": 0,
@@ -437,23 +416,16 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "basic_item",
+      "name": "Jacopo",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "nome",
-          "type": "string",
-          "value": "undefined"
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "bercio",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -462,7 +434,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "basic-item.png",
+                  "image": "jacopo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -478,20 +450,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 40,
+                        "x": 259,
                         "y": 0
                       },
                       {
-                        "x": 40,
-                        "y": 38
+                        "x": 259,
+                        "y": 310
                       },
                       {
-                        "x": 0,
-                        "y": 38
+                        "x": 1,
+                        "y": 310
                       }
                     ]
                   ]
@@ -798,7 +770,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6846283916654071,
+        "zoomFactor": 0.756247719810733,
         "windowMask": false
       },
       "objectsGroups": [
@@ -874,7 +846,7 @@
           "name": "sportello_flusso",
           "persistentUuid": "2bfd94f0-596f-4418-9d1d-51d04a52137e",
           "width": 0,
-          "x": 1035,
+          "x": 1037,
           "y": 23,
           "zOrder": 7,
           "numberProperties": [],
@@ -949,52 +921,6 @@
           "initialVariables": []
         },
         {
-          "angle": 11,
-          "customSize": true,
-          "depth": 0,
-          "height": 112,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "5633889e-d111-4a3c-a963-74f863a6d983",
-          "width": 106,
-          "x": 401,
-          "y": 32,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "pensile"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 141,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "6f701c8d-6a07-47a5-b1d3-8fd5b1e2c5a3",
-          "width": 229,
-          "x": 601,
-          "y": 339,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "cuccia"
-            }
-          ]
-        },
-        {
           "angle": 0,
           "customSize": false,
           "height": 0,
@@ -1008,29 +934,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 140,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "6432ca40-3dd2-4371-9cf4-82971e86dd02",
-          "width": 102,
-          "x": 1045,
-          "y": 42,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "Flusso"
-            }
-          ]
         },
         {
           "angle": 241,
@@ -1049,53 +952,6 @@
           "initialVariables": []
         },
         {
-          "angle": 349,
-          "customSize": true,
-          "depth": 0,
-          "height": 191,
-          "layer": "Dialoghi",
-          "name": "dialogo",
-          "persistentUuid": "78687876-c0ae-4e9b-ab6e-ae18e14cfc84",
-          "width": 626,
-          "x": 336,
-          "y": 329,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 350,
-          "customSize": true,
-          "depth": 0,
-          "height": 69,
-          "layer": "Dialoghi",
-          "name": "textDialogo",
-          "persistentUuid": "d04500ad-b0d9-4b71-8d56-0335c028067d",
-          "width": 509,
-          "x": 382,
-          "y": 363,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 351,
-          "customSize": false,
-          "height": 0,
-          "layer": "Dialoghi",
-          "name": "Button",
-          "persistentUuid": "1fcdad65-dc9b-4c77-9462-ca48c73283f6",
-          "width": 0,
-          "x": 870,
-          "y": 414,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 348,
           "customSize": true,
           "depth": 0,
@@ -1104,8 +960,8 @@
           "name": "Jacopo",
           "persistentUuid": "956536a1-22bd-44be-b61e-a8fabf4ff4d3",
           "width": 187,
-          "x": 189,
-          "y": 360,
+          "x": 187,
+          "y": 367,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -1158,17 +1014,163 @@
           "initialVariables": []
         },
         {
+          "angle": 349,
+          "customSize": true,
+          "depth": 0,
+          "height": 186,
+          "layer": "Dialoghi",
+          "name": "textDialogo",
+          "persistentUuid": "958c4073-6048-4980-bd9b-985c670f3a17",
+          "width": 518,
+          "x": 373,
+          "y": 373,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 345,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialoghi",
+          "name": "Button",
+          "persistentUuid": "2fc02ba8-14c1-48a7-a05d-04c35c5e1e76",
+          "width": 0,
+          "x": 832,
+          "y": 467,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 358,
+          "customSize": true,
+          "depth": 0,
+          "height": 109,
+          "layer": "Dialoghi",
+          "name": "basic_item",
+          "persistentUuid": "d5d1a01d-5eac-4b79-ba0b-ee97cda3b5d3",
+          "width": 120,
+          "x": 410,
+          "y": 35,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "pensile"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 115,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "4d21ed72-d9c1-437d-bf07-e9ceb58ad509",
+          "width": 219,
+          "x": 614,
+          "y": 346,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "cuccia"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 136,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "d2fda2b3-4bb2-4a02-9ed4-abd453aed968",
+          "width": 97,
+          "x": 1049,
+          "y": 45,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "flusso"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 158,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "cceedbbe-9120-483b-ae93-21334ba0237a",
+          "width": 123,
+          "x": 250,
+          "y": 201,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "finestrino"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 55,
+          "layer": "Oggetti base",
+          "name": "basic_item",
+          "persistentUuid": "5fe27e31-9b74-4352-807d-31267bc1a190",
+          "width": 101,
+          "x": 412,
+          "y": 241,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "scottex"
+            }
+          ]
+        },
+        {
           "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 27,
           "layer": "Oggetti base",
           "name": "basic_item",
-          "persistentUuid": "6d310d7e-4f6d-461a-8240-4b487a761194",
-          "width": 40,
-          "x": 454,
-          "y": 423,
-          "zOrder": 18,
+          "persistentUuid": "ee6c1592-b4a8-4ec1-b202-df92135ded4a",
+          "width": 36,
+          "x": 453,
+          "y": 419,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -1181,50 +1183,20 @@
           ]
         },
         {
-          "angle": 353,
+          "angle": 351,
           "customSize": true,
           "depth": 0,
-          "height": 149,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "2d410111-40a7-43a8-8277-a1a32e5b7faf",
-          "width": 105,
-          "x": 250,
-          "y": 202,
-          "zOrder": 19,
+          "height": 214,
+          "layer": "Dialoghi",
+          "name": "dialogo",
+          "persistentUuid": "e98e451d-e22e-4a95-8f7a-cd13cec8c40e",
+          "width": 600,
+          "x": 312,
+          "y": 333,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "Finestrino"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 45,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "a78631a9-97cb-420c-a707-bc10a8316e9d",
-          "width": 87,
-          "x": 422,
-          "y": 245,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "Scottex"
-            }
-          ]
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1988,67 +1960,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Jacopo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "bercio",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "jacopo.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 0
-                          },
-                          {
-                            "x": 259,
-                            "y": 0
-                          },
-                          {
-                            "x": 259,
-                            "y": 310
-                          },
-                          {
-                            "x": 1,
-                            "y": 310
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sforzo",
@@ -2202,6 +2113,74 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+          "name": "basic_item",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "undefined"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "basic-item.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
           "name": "sforzo_socket",
           "tags": "",
           "type": "Sprite",
@@ -2319,6 +2298,40 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "textUI",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "NanumPenScript-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 40,
+          "name": "textback",
+          "tags": "",
+          "texture": "backtesto3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 46,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -2402,7 +2415,7 @@
                       "parameters": [
                         "textDialogo",
                         "=",
-                        "\"GNAMOVESE, io vado in cabina di comando, te intanto dai energia SMODATA al MILLENIUM CAMPER\""
+                        "\"GNAMOVESE, io vado in cabina di comando e attracco per la partenza. Te intanto dai energia SMODATA al MILLENIUM CAMPER\""
                       ]
                     }
                   ]
@@ -2669,7 +2682,7 @@
                   "parameters": [
                     "textDialogo",
                     "=",
-                    "\"SFORZO SPRAY! Il mio camper lo adora! Ma non basta\""
+                    "\"SFORZO SPRAY! Il mio camper lo adora! \nMa non basta...DATTI DA FARE\""
                   ]
                 }
               ]
@@ -2807,7 +2820,7 @@
                   "parameters": [
                     "textDialogo",
                     "=",
-                    "\"ORA SI!!! Ma quanto cazzo c'hai messo, \nsei un disagiato (porcoddio).\nOra allacciati le cinture...Raggiungeremo i 130km/h!!!\""
+                    "\"ORA SI!!! Ma quanto cazzo c'hai messo, \nsei un disagiato (porcoddio).\nAllacciati le cinture...Raggiungeremo i 130km/h!!!\""
                   ]
                 },
                 {
@@ -2862,7 +2875,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"mainMenu\"",
+                        "\"Camper-viaggio\"",
                         "no"
                       ]
                     }
@@ -3075,7 +3088,7 @@
                     "basic_item",
                     "nome",
                     "=",
-                    "\"Flusso\""
+                    "\"flusso\""
                   ]
                 }
               ],
@@ -3103,7 +3116,7 @@
                     "basic_item",
                     "nome",
                     "=",
-                    "\"Finestrino\""
+                    "\"finestrino\""
                   ]
                 }
               ],
@@ -3131,7 +3144,7 @@
                     "basic_item",
                     "nome",
                     "=",
-                    "\"Scottex\""
+                    "\"scottex\""
                   ]
                 }
               ],
@@ -4001,7 +4014,7 @@
                   "parameters": [
                     "textUI",
                     "=",
-                    "\"Mi sembra chiaro. Apre e chiude.\""
+                    "\"Apre e chiude qualcosa\""
                   ]
                 }
               ],
@@ -4582,7 +4595,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693714719,
+        "zoomFactor": 0.6672773998329977,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4631,6 +4644,53 @@
           "x": 836,
           "y": 676,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -7,
+          "customSize": true,
+          "depth": 0,
+          "height": 148,
+          "layer": "dialoghi",
+          "name": "dialogo",
+          "persistentUuid": "54e23e70-9c5d-4543-b47a-e521d0b87934",
+          "width": 620,
+          "x": 303,
+          "y": 405,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 227,
+          "layer": "dialoghi",
+          "name": "Jacopo",
+          "persistentUuid": "8d2ce9e0-f6ac-4801-a138-74d24c9a29f3",
+          "width": 190,
+          "x": 172,
+          "y": 385,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -7,
+          "customSize": false,
+          "height": 0,
+          "layer": "dialoghi",
+          "name": "textDialogo",
+          "persistentUuid": "1b47ab9d-3b0e-41c6-8f2d-7d2ffea29005",
+          "width": 0,
+          "x": 376,
+          "y": 461,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4695,6 +4755,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background-dogana2.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 800
+                          },
+                          {
+                            "x": 0,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4707,7 +4815,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -4803,7 +4916,12 @@
           "zoneRadius": 3,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
         }
       ],
       "events": [
@@ -4831,13 +4949,39 @@
             },
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "Tween::AddObjectPositionYTween"
+              },
+              "parameters": [
+                "camper",
+                "Tween",
+                "\"camper partenza\"",
+                "-700",
+                "\"easeInQuad\"",
+                "3000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionYTween"
               },
               "parameters": [
                 "motori",
-                "camper",
-                "0",
-                "0"
+                "Tween",
+                "\"motori\"",
+                "-200",
+                "\"linear\"",
+                "3000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"dialoghi\""
               ]
             }
           ]
@@ -4846,6 +4990,92 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"camper\"",
+                ">=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "camper",
+                "Tween",
+                "\"camper partenza\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Background",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionYTween"
+              },
+              "parameters": [
+                "camper",
+                "Tween",
+                "\"camper partenza\"",
+                "227",
+                "\"easeInQuad\"",
+                "3000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "camper",
+                "=",
+                "207"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"camper\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"dialoghi\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -4875,16 +5105,28 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "dialoghi",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
-        },
-        {
-          "name": "VerticalSpriteSheetAnimator",
-          "type": "SpriteSheet::VerticalSpriteSheetAnimator"
         }
       ]
     }
@@ -9646,47 +9888,32 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "textback",
-          "persistentUuid": "9547a8ae-7e1a-48f1-8fba-584c841dc8b5",
-          "width": 0,
-          "x": 2107,
-          "y": -291,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "UI",
-          "name": "textback",
-          "persistentUuid": "669aa47f-d4d4-4a91-90dd-20b8b4ea39c1",
-          "width": 1281,
-          "x": -1,
-          "y": 736,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 32,
           "layer": "UI",
           "name": "textUI",
-          "persistentUuid": "71a5b04e-c677-459a-ba11-ed3af863e596",
-          "width": 1126,
-          "x": 29,
-          "y": 751,
+          "persistentUuid": "67d633f0-c5a3-4be5-be04-9693269f87d7",
+          "width": 1214,
+          "x": 35,
+          "y": 757,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 53,
+          "layer": "",
+          "name": "textback",
+          "persistentUuid": "67615846-06ab-4fe4-a6b3-2d1ef70d50e8",
+          "width": 1281,
+          "x": -1,
+          "y": 746,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
