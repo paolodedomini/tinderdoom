@@ -816,6 +816,24 @@
         "name": "pippo3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-ufo2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-ufo2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "background-ufo3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "background-ufo3.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2639,6 +2657,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -2904,6 +2946,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -3010,7 +3076,7 @@
           ]
         },
         {
-          "angle": -7,
+          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 79,
@@ -3018,8 +3084,8 @@
           "name": "textDialogo",
           "persistentUuid": "958c4073-6048-4980-bd9b-985c670f3a17",
           "width": 604,
-          "x": 487,
-          "y": 403,
+          "x": 279,
+          "y": 622,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -3049,16 +3115,16 @@
           ]
         },
         {
-          "angle": -7,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 148,
+          "depth": 1,
+          "height": 188,
           "layer": "Dialoghi",
           "name": "dialogo",
           "persistentUuid": "e98e451d-e22e-4a95-8f7a-cd13cec8c40e",
-          "width": 688,
-          "x": 436,
-          "y": 375,
+          "width": 813,
+          "x": 168,
+          "y": 594,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -3174,121 +3240,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 109,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "80f9b18c-4890-4b51-912e-9522460ba366",
-          "width": 117,
-          "x": 410,
-          "y": 612,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "panca"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 92,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "53d7d4e5-d0e0-4cd3-b785-cbd0b5b2cdf9",
-          "width": 40,
-          "x": 679,
-          "y": 641,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "ae988c4b-d701-4d20-92b6-3eb443aa2975",
-          "width": 23,
-          "x": 936,
-          "y": 707,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "daa7b007-a254-4785-8ae7-f61f653beed4",
-          "width": 16,
-          "x": 719,
-          "y": 641,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "d7bd88e6-006d-41d8-baab-3c85cf1bb09e",
-          "width": 72,
-          "x": 721,
-          "y": 705,
-          "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -3306,50 +3257,6 @@
               "name": "nome",
               "type": "string",
               "value": "boeri"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "sportello_bomba",
-          "persistentUuid": "2be5ddd3-6ed6-495c-8f24-8f87548b3816",
-          "width": 0,
-          "x": 750,
-          "y": 656,
-          "zOrder": 44,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "sportello-bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "socket_bomba",
-          "persistentUuid": "2d216a1f-7a29-4866-8405-dcfbf5fb303a",
-          "width": 0,
-          "x": 749,
-          "y": 656,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "socket-bomba"
             }
           ]
         },
@@ -3422,77 +3329,17 @@
           ]
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 102,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "96afd74d-89b2-4cd8-94c1-38cb4f1fe07c",
-          "width": 107,
-          "x": 796,
-          "y": 662,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 69,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "021306bf-20e4-41e3-a2eb-508a80000f57",
-          "width": 34,
-          "x": 904,
-          "y": 694,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bomba"
-            }
-          ]
-        },
-        {
           "angle": -7,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 292,
           "layer": "Dialoghi",
           "name": "avatar",
           "persistentUuid": "c0d00677-ae3e-480c-b2c9-f9d9c4cc0912",
-          "width": 0,
-          "x": 240,
-          "y": 326,
+          "width": 245,
+          "x": 25,
+          "y": 524,
           "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewParticlesEmitter",
-          "persistentUuid": "1d38cca8-1c5d-42a6-90ad-2fed1e5a259c",
-          "width": 0,
-          "x": 805,
-          "y": 707,
-          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3531,12 +3378,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Dialoghi",
+          "layer": "",
           "name": "freccia",
-          "persistentUuid": "8efc3356-b100-45cf-a9ad-fa335c4eb4c8",
+          "persistentUuid": "b7d809a7-e65d-415d-8e07-a20948aee2c7",
           "width": 0,
-          "x": 1137,
-          "y": 669,
+          "x": 1129,
+          "y": 687,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -3570,7 +3417,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "background-dogana10.jpg",
+                      "image": "background-ufo2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3618,7 +3465,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "background-dogana-1.jpg",
+                      "image": "background-ufo3.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6983,6 +6830,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
@@ -7093,31 +6964,31 @@
           ]
         },
         {
-          "angle": 349,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 186,
+          "depth": 1,
+          "height": 154,
           "layer": "Dialoghi",
           "name": "textDialogo",
           "persistentUuid": "958c4073-6048-4980-bd9b-985c670f3a17",
-          "width": 518,
-          "x": 373,
-          "y": 373,
+          "width": 592,
+          "x": 274,
+          "y": 621,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 345,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "Dialoghi",
           "name": "Button",
           "persistentUuid": "2fc02ba8-14c1-48a7-a05d-04c35c5e1e76",
           "width": 0,
-          "x": 832,
-          "y": 467,
+          "x": 789,
+          "y": 740,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -7147,16 +7018,16 @@
           ]
         },
         {
-          "angle": 351,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 214,
+          "depth": 1,
+          "height": 190,
           "layer": "Dialoghi",
           "name": "dialogo",
           "persistentUuid": "e98e451d-e22e-4a95-8f7a-cd13cec8c40e",
-          "width": 600,
-          "x": 312,
-          "y": 333,
+          "width": 719,
+          "x": 170,
+          "y": 598,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -7567,14 +7438,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 292,
           "layer": "Dialoghi",
           "name": "avatar",
           "persistentUuid": "c0d00677-ae3e-480c-b2c9-f9d9c4cc0912",
-          "width": 0,
-          "x": 124,
-          "y": 333,
+          "width": 245,
+          "x": 25,
+          "y": 524,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -8820,9 +8692,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -10843,6 +10715,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "ShakeObject_PositionAngle",
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
@@ -11104,31 +11000,32 @@
           "initialVariables": []
         },
         {
-          "angle": 349,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 186,
+          "depth": 1,
+          "height": 158,
           "layer": "Dialoghi",
           "name": "textDialogo",
           "persistentUuid": "958c4073-6048-4980-bd9b-985c670f3a17",
-          "width": 518,
-          "x": 373,
-          "y": 373,
+          "width": 546,
+          "x": 274,
+          "y": 615,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 345,
-          "customSize": false,
-          "height": 0,
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "layer": "Dialoghi",
           "name": "Button",
           "persistentUuid": "2fc02ba8-14c1-48a7-a05d-04c35c5e1e76",
-          "width": 0,
-          "x": 832,
-          "y": 467,
+          "width": 126,
+          "x": 640,
+          "y": 736,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -11273,16 +11170,16 @@
           ]
         },
         {
-          "angle": 351,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 214,
+          "depth": 1,
+          "height": 183,
           "layer": "Dialoghi",
           "name": "dialogo",
           "persistentUuid": "e98e451d-e22e-4a95-8f7a-cd13cec8c40e",
-          "width": 600,
-          "x": 312,
-          "y": 333,
+          "width": 635,
+          "x": 207,
+          "y": 602,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -11305,16 +11202,16 @@
           "initialVariables": []
         },
         {
-          "angle": 353,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 227,
+          "depth": 2,
+          "height": 292,
           "layer": "Dialoghi",
           "name": "avatar",
           "persistentUuid": "a69b0ef1-f159-437b-83d2-859e34239de7",
-          "width": 191,
-          "x": 184,
-          "y": 371,
+          "width": 245,
+          "x": 25,
+          "y": 524,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -14821,6 +14718,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -14911,23 +14832,23 @@
           "initialVariables": []
         },
         {
-          "angle": 351,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 148,
+          "depth": 1,
+          "height": 181,
           "layer": "dialoghi",
           "name": "dialogo",
           "persistentUuid": "54e23e70-9c5d-4543-b47a-e521d0b87934",
-          "width": 660,
-          "x": 305,
-          "y": 393,
+          "width": 688,
+          "x": 164,
+          "y": 602,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 351,
+          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 109,
@@ -14935,8 +14856,8 @@
           "name": "textDialogo",
           "persistentUuid": "1b47ab9d-3b0e-41c6-8f2d-7d2ffea29005",
           "width": 557,
-          "x": 392,
-          "y": 415,
+          "x": 308,
+          "y": 647,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -14974,16 +14895,16 @@
           "initialVariables": []
         },
         {
-          "angle": 351,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 236,
+          "depth": 1,
+          "height": 292,
           "layer": "dialoghi",
           "name": "avatar",
           "persistentUuid": "a5fb838a-9216-4cc6-820b-cccfeaaaa3c5",
-          "width": 198,
-          "x": 156,
-          "y": 390,
+          "width": 245,
+          "x": 25,
+          "y": 524,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -15945,6 +15866,30 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -16066,45 +16011,45 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 236,
+          "height": 292,
           "layer": "dialoghi",
           "name": "avatar",
           "persistentUuid": "7537b1f7-a558-45f7-8155-526226d6c424",
-          "width": 198,
-          "x": 207,
-          "y": 378,
+          "width": 245,
+          "x": 25,
+          "y": 524,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": -7,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 148,
+          "depth": 1,
+          "height": 173,
           "layer": "dialoghi",
           "name": "dialogo",
           "persistentUuid": "f56f9b32-95f3-4dc6-9037-d268ffcff29b",
-          "width": 688,
-          "x": 342,
-          "y": 385,
+          "width": 754,
+          "x": 135,
+          "y": 609,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 354,
+          "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 29,
+          "depth": 1,
+          "height": 129,
           "layer": "dialoghi",
           "name": "textDialogo",
           "persistentUuid": "96904edf-cbe8-4637-963a-577afa806760",
-          "width": 655,
-          "x": 428,
-          "y": 391,
+          "width": 554,
+          "x": 315,
+          "y": 637,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -16587,7 +16532,7 @@
               "parameters": [
                 "textDialogo",
                 "=",
-                "\"DIOCANE CHE LEGNATA!\nCosi' devono essere i botti \nmadonna orso.\""
+                "\"DIOCANE CHE LEGNATA!\nCosi' devono essere i botti madonna orso.\""
               ]
             },
             {
@@ -17129,6 +17074,30 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
