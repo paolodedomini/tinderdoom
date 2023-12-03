@@ -843,7 +843,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "dialogo",
-      "tags": "",
       "texture": "uiback.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -881,7 +880,6 @@
       "italic": false,
       "name": "textDialogo",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -903,7 +901,6 @@
       "italic": false,
       "name": "Button",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -923,7 +920,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "avatar",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1283,7 +1279,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "basic_item",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1351,7 +1346,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "freccia",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1413,7 +1407,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "transition",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1571,6 +1564,32 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "dialogo"
+      },
+      {
+        "objectName": "textDialogo"
+      },
+      {
+        "objectName": "Button"
+      },
+      {
+        "objectName": "avatar"
+      },
+      {
+        "objectName": "basic_item"
+      },
+      {
+        "objectName": "freccia"
+      },
+      {
+        "objectName": "transition"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -1653,7 +1672,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "backgroundMenuPrincipale",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1697,7 +1715,6 @@
           "italic": false,
           "name": "newGame",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1714,6 +1731,17 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "backgroundMenuPrincipale"
+          },
+          {
+            "objectName": "newGame"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1859,6 +1887,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -2019,7 +2051,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2176,7 +2207,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "camper",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2239,6 +2269,17 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "camper"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2970,6 +3011,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -2999,7 +3044,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6622955665506441,
+        "zoomFactor": 0.7315786463753071,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3149,14 +3194,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 202,
+          "depth": 1,
+          "height": 378,
           "layer": "",
           "name": "basic_item",
           "persistentUuid": "78c4c7d9-6b2b-4033-a740-343da41c5677",
-          "width": 178,
-          "x": 936,
-          "y": 178,
+          "width": 163,
+          "x": 524,
+          "y": 22,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -3165,7 +3210,7 @@
               "folded": true,
               "name": "nome",
               "type": "string",
-              "value": "porta"
+              "value": "orologi-centrali"
             }
           ]
         },
@@ -3188,28 +3233,6 @@
               "name": "nome",
               "type": "string",
               "value": "boeri"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "pompa",
-          "persistentUuid": "32dec5da-fe0a-4afa-8c3d-9e67d6648780",
-          "width": 0,
-          "x": 303,
-          "y": 168,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "pompa"
             }
           ]
         },
@@ -3263,7 +3286,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Dialoghi",
           "name": "freccia",
           "persistentUuid": "b7d809a7-e65d-415d-8e07-a20948aee2c7",
           "width": 0,
@@ -3288,6 +3311,121 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 314,
+          "layer": "",
+          "name": "basic_item",
+          "persistentUuid": "740db7ac-1d07-4885-bbcb-a428f8ed7ba7",
+          "width": 217,
+          "x": 305,
+          "y": 39,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "pannello1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 299,
+          "layer": "",
+          "name": "basic_item",
+          "persistentUuid": "75be69f7-9127-4331-9827-37b2ce3361b0",
+          "width": 222,
+          "x": 66,
+          "y": 45,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "pannello2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 200,
+          "layer": "",
+          "name": "basic_item",
+          "persistentUuid": "4ef4a86d-7c3c-4144-9f78-fbd71f45e6af",
+          "width": 388,
+          "x": 112,
+          "y": 369,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "pannello3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 252,
+          "layer": "",
+          "name": "basic_item",
+          "persistentUuid": "b7d54ad6-9cb2-4612-a910-7d365162b34c",
+          "width": 177,
+          "x": 842,
+          "y": 20,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "tasti"
+            }
+          ]
+        },
+        {
+          "angle": 11,
+          "customSize": true,
+          "depth": 1,
+          "height": 154,
+          "layer": "",
+          "name": "basic_item",
+          "persistentUuid": "ba4777f2-c9e5-45a4-9619-bae15ae5c947",
+          "width": 214,
+          "x": 135,
+          "y": 575,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "nome",
+              "type": "string",
+              "value": "piano"
+            }
+          ]
         }
       ],
       "objects": [
@@ -3295,7 +3433,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3409,7 +3546,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3518,7 +3654,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "barre_plutonio",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -3636,7 +3771,6 @@
           "italic": false,
           "name": "NewText",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -3656,7 +3790,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sforzo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -3734,7 +3867,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "basic_item",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -3802,7 +3934,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sforzo_socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3911,7 +4042,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3925,7 +4055,6 @@
           "italic": false,
           "name": "textUI",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -3945,7 +4074,6 @@
           "assetStoreId": "",
           "height": 40,
           "name": "textback",
-          "tags": "",
           "texture": "backtesto3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 46,
@@ -3957,7 +4085,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "boeri",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -4073,7 +4200,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sportello_bomba",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -4158,7 +4284,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "socket_bomba",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4267,7 +4392,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pompa",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -4464,7 +4588,6 @@
           "rendererParam1": 3,
           "rendererParam2": 1,
           "rendererType": "Quad",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "bomba.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -4477,7 +4600,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pezzo_pompa1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4544,7 +4666,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pezzo_pompa2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4602,6 +4723,62 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "socket"
+          },
+          {
+            "objectName": "barre_plutonio"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "sforzo"
+          },
+          {
+            "objectName": "basic_item"
+          },
+          {
+            "objectName": "sforzo_socket"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "textUI"
+          },
+          {
+            "objectName": "textback"
+          },
+          {
+            "objectName": "boeri"
+          },
+          {
+            "objectName": "sportello_bomba"
+          },
+          {
+            "objectName": "socket_bomba"
+          },
+          {
+            "objectName": "pompa"
+          },
+          {
+            "objectName": "NewParticlesEmitter"
+          },
+          {
+            "objectName": "pezzo_pompa1"
+          },
+          {
+            "objectName": "pezzo_pompa2"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4982,7 +5159,7 @@
               "parameters": [
                 "isDialogo",
                 "=",
-                "5"
+                "4"
               ]
             }
           ],
@@ -4994,6 +5171,16 @@
               "parameters": [
                 "Button",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "freccia",
+                "=",
+                "-1000"
               ]
             }
           ],
@@ -5420,7 +5607,7 @@
                         "basic_item",
                         "nome",
                         "=",
-                        "\"porta\""
+                        "\"orologi-centrali\""
                       ]
                     }
                   ],
@@ -5432,7 +5619,7 @@
                       "parameters": [
                         "textUI",
                         "=",
-                        "\"Siamo entrati da li'. Ne usciremo?\""
+                        "\"Orologi come i nostri?\""
                       ]
                     }
                   ]
@@ -5448,7 +5635,7 @@
                         "basic_item",
                         "nome",
                         "=",
-                        "\"bacheca\""
+                        "\"pannello1\""
                       ]
                     }
                   ],
@@ -5460,7 +5647,7 @@
                       "parameters": [
                         "textUI",
                         "=",
-                        "\"Scritte in russo, foto di gente torturata...una tessera punti CONAD\""
+                        "\"aggeggi alieni simili ai nostri\""
                       ]
                     }
                   ]
@@ -5476,7 +5663,7 @@
                         "basic_item",
                         "nome",
                         "=",
-                        "\"lampada\""
+                        "\"pannello2\""
                       ]
                     }
                   ],
@@ -5488,7 +5675,7 @@
                       "parameters": [
                         "textUI",
                         "=",
-                        "\"Un lampada, come in occidente\""
+                        "\"Chissà a cosa serviranno\""
                       ]
                     }
                   ]
@@ -5504,7 +5691,7 @@
                         "basic_item",
                         "nome",
                         "=",
-                        "\"armadio\""
+                        "\"pannello3\""
                       ]
                     }
                   ],
@@ -5516,7 +5703,7 @@
                       "parameters": [
                         "textUI",
                         "=",
-                        "\"Chiuso.\""
+                        "\"cosi neri\""
                       ]
                     }
                   ]
@@ -5532,19 +5719,19 @@
                         "basic_item",
                         "nome",
                         "=",
-                        "\"panca\""
+                        "\"piano\""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "TextObject::String"
+                        "value": "EffectCapability::EffectBehavior::SetEffectStringParameter"
                       },
                       "parameters": [
                         "textUI",
-                        "=",
-                        "\"Pregevole panca in legno con macchie di sangue\""
+                        "Effect",
+                        "\"come conquistare il tuo primo pianeta. Appunti del corso online\""
                       ]
                     }
                   ]
@@ -6766,6 +6953,10 @@
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -7411,7 +7602,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7525,7 +7715,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7634,7 +7823,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "barre_plutonio",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7752,7 +7940,6 @@
           "italic": false,
           "name": "NewText",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -7772,7 +7959,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sforzo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7850,7 +8036,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "basic_item",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7918,7 +8103,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sforzo_socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8027,7 +8211,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8041,7 +8224,6 @@
           "italic": false,
           "name": "textUI",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -8061,7 +8243,6 @@
           "assetStoreId": "",
           "height": 40,
           "name": "textback",
-          "tags": "",
           "texture": "backtesto3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 46,
@@ -8073,7 +8254,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "boeri",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -8189,7 +8369,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sportello_bomba",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -8274,7 +8453,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "socket_bomba",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8383,7 +8561,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pompa",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -8580,7 +8757,6 @@
           "rendererParam1": 3,
           "rendererParam2": 1,
           "rendererType": "Quad",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "bomba.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -8593,7 +8769,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pezzo_pompa1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8660,7 +8835,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pezzo_pompa2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8718,6 +8892,62 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "socket"
+          },
+          {
+            "objectName": "barre_plutonio"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "sforzo"
+          },
+          {
+            "objectName": "basic_item"
+          },
+          {
+            "objectName": "sforzo_socket"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "textUI"
+          },
+          {
+            "objectName": "textback"
+          },
+          {
+            "objectName": "boeri"
+          },
+          {
+            "objectName": "sportello_bomba"
+          },
+          {
+            "objectName": "socket_bomba"
+          },
+          {
+            "objectName": "pompa"
+          },
+          {
+            "objectName": "NewParticlesEmitter"
+          },
+          {
+            "objectName": "pezzo_pompa1"
+          },
+          {
+            "objectName": "pezzo_pompa2"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10651,6 +10881,10 @@
           "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -11131,7 +11365,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11192,7 +11425,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sportello_flusso",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11271,7 +11503,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sportello_plutonio",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11337,7 +11568,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "flusso",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11398,7 +11628,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11507,7 +11736,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pulsante",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11567,7 +11795,6 @@
         {
           "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
           "name": "Usa",
-          "tags": "UIButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -11631,7 +11858,6 @@
         {
           "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
           "name": "Raccogli",
-          "tags": "UIButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -11696,7 +11922,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "barre_plutonio",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11845,7 +12070,6 @@
           "rendererParam1": 50,
           "rendererParam2": 1,
           "rendererType": "Line",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
@@ -11870,7 +12094,6 @@
           "italic": false,
           "name": "NewText",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -11890,7 +12113,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "sforzo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11968,7 +12190,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sportello_sforzo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -12041,7 +12262,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "basic_item",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -12109,7 +12329,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sforzo_socket",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12218,7 +12437,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12232,7 +12450,6 @@
           "italic": false,
           "name": "textUI",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -12252,7 +12469,6 @@
           "assetStoreId": "",
           "height": 40,
           "name": "textback",
-          "tags": "",
           "texture": "backtesto3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 46,
@@ -12261,6 +12477,65 @@
           "behaviors": []
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "sportello_flusso"
+          },
+          {
+            "objectName": "sportello_plutonio"
+          },
+          {
+            "objectName": "flusso"
+          },
+          {
+            "objectName": "socket"
+          },
+          {
+            "objectName": "pulsante"
+          },
+          {
+            "objectName": "Usa"
+          },
+          {
+            "objectName": "Raccogli"
+          },
+          {
+            "objectName": "barre_plutonio"
+          },
+          {
+            "objectName": "emitterFlusso"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "sforzo"
+          },
+          {
+            "objectName": "sportello_sforzo"
+          },
+          {
+            "objectName": "basic_item"
+          },
+          {
+            "objectName": "sforzo_socket"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "textUI"
+          },
+          {
+            "objectName": "textback"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14650,6 +14925,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -14824,7 +15103,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14933,7 +15211,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "camper",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15032,7 +15309,6 @@
           "rendererParam1": 20,
           "rendererParam2": 1,
           "rendererType": "Point",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
@@ -15050,7 +15326,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Prigoccechin",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15108,6 +15383,23 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "camper"
+          },
+          {
+            "objectName": "motori"
+          },
+          {
+            "objectName": "Prigoccechin"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15798,6 +16090,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         },
@@ -16032,7 +16328,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16126,7 +16421,6 @@
           "rendererParam1": 30,
           "rendererParam2": 10,
           "rendererType": "Quad",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "4e0d855c118410367c64a093041732c42802439dd8d05eba08958965bc651bf3_Explosion_3.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -16139,7 +16433,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "ufo",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16205,7 +16498,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "raggio",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16266,7 +16558,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16329,6 +16620,26 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "background"
+          },
+          {
+            "objectName": "NewParticlesEmitter"
+          },
+          {
+            "objectName": "ufo"
+          },
+          {
+            "objectName": "raggio"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17041,6 +17352,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -33067,7 +33382,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -33090,7 +33404,6 @@
               "leftMargin": 0,
               "name": "Idle",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -33120,7 +33433,6 @@
               "leftMargin": 0,
               "name": "Hovered",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -33142,7 +33454,6 @@
               "leftMargin": 0,
               "name": "Pressed",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -33152,7 +33463,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          }
         }
       ]
     }
