@@ -1582,6 +1582,295 @@
   ],
   "layouts": [
     {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "mainMenu",
+      "name": "mainMenu",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4789341884535246,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "buttonsUI",
+          "objects": [
+            {
+              "name": "newGame"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1283,
+          "layer": "",
+          "name": "backgroundMenuPrincipale",
+          "persistentUuid": "e63dacc0-1963-45dc-ac07-5c81b13cb4c1",
+          "width": 1924,
+          "x": -644,
+          "y": -484,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "newGame",
+          "persistentUuid": "61bd5848-5bde-40d9-8211-ad50c6ef067a",
+          "width": 0,
+          "x": 312,
+          "y": 358,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "backgroundMenuPrincipale",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "background-stage-1.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "newGame",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "New Game",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "newGame",
+                "a",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "newGame",
+                "=",
+                "200"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Intro\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "newGame",
+                "a",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "newGame",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "VerticalSpriteSheetAnimator",
+          "type": "SpriteSheet::VerticalSpriteSheetAnimator"
+        }
+      ]
+    },
+    {
       "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "Intro",
@@ -2693,295 +2982,6 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "mainMenu",
-      "name": "mainMenu",
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4789341884535246,
-        "windowMask": false
-      },
-      "objectsGroups": [
-        {
-          "name": "buttonsUI",
-          "objects": [
-            {
-              "name": "newGame"
-            }
-          ]
-        }
-      ],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 1283,
-          "layer": "",
-          "name": "backgroundMenuPrincipale",
-          "persistentUuid": "e63dacc0-1963-45dc-ac07-5c81b13cb4c1",
-          "width": 1924,
-          "x": -644,
-          "y": -484,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "newGame",
-          "persistentUuid": "61bd5848-5bde-40d9-8211-ad50c6ef067a",
-          "width": 0,
-          "x": 312,
-          "y": 358,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "backgroundMenuPrincipale",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "background-stage-1.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "newGame",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "New Game",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "newGame",
-                "a",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "newGame",
-                "=",
-                "200"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Intro\"",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "newGame",
-                "a",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "newGame",
-                "=",
-                "255"
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 8042920,
-          "ambientLightColorR": 16,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 0.1,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        },
-        {
-          "name": "VerticalSpriteSheetAnimator",
-          "type": "SpriteSheet::VerticalSpriteSheetAnimator"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
       "mangledName": "Ufo",
       "name": "Ufo",
       "r": 0,
@@ -3150,82 +3150,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 33,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "e5c22b34-16d2-44e4-81bd-1d6580eaeed9",
-          "width": 75,
-          "x": 595,
-          "y": 190,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "lampada"
-            }
-          ]
-        },
-        {
-          "angle": 357,
-          "customSize": true,
-          "depth": 0,
-          "height": 295,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "4f3376b3-f494-43c3-9e33-45f2455060cb",
-          "width": 162,
-          "x": 905,
-          "y": 325,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bacheca"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 210,
-          "layer": "",
-          "name": "basic_item",
-          "persistentUuid": "234e0462-750f-4475-a40a-9b896c527c46",
-          "width": 127,
-          "x": 289,
-          "y": 337,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "armadio"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 202,
           "layer": "",
           "name": "basic_item",
           "persistentUuid": "78c4c7d9-6b2b-4033-a740-343da41c5677",
           "width": 178,
-          "x": 551,
-          "y": 398,
+          "x": 936,
+          "y": 178,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -3279,52 +3210,6 @@
               "name": "nome",
               "type": "string",
               "value": "pompa"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 150,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "d4769e80-c49d-48c6-8417-1d623402e673",
-          "width": 54,
-          "x": 795,
-          "y": 382,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "bacheca2"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 44,
-          "layer": "Oggetti base",
-          "name": "basic_item",
-          "persistentUuid": "b1734bfb-a955-4d51-87c2-18077ae62181",
-          "width": 126,
-          "x": 567,
-          "y": 65,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "nome",
-              "type": "string",
-              "value": "lampada"
             }
           ]
         },
@@ -3385,6 +3270,21 @@
           "x": 1129,
           "y": 687,
           "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialoghi",
+          "name": "Button",
+          "persistentUuid": "32655be2-83af-4bd0-85e1-b0fdf8cb530a",
+          "width": 0,
+          "x": 875,
+          "y": 740,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4945,16 +4845,6 @@
                     "avatar",
                     "\"pippo\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "textDialogo",
-                    "=",
-                    "\"Proviamo ad hakerare l'ufo! Potrebbe portarci direttamente sopra Tinderdoom\""
-                  ]
                 }
               ]
             },
@@ -5010,7 +4900,7 @@
                   "parameters": [
                     "isDialogo",
                     "=",
-                    "3"
+                    "4"
                   ]
                 },
                 {
@@ -5037,7 +4927,7 @@
                   "parameters": [
                     "textDialogo",
                     "=",
-                    "\"Gente se serve io ho un cazzo di gomma a sei assi\""
+                    "\"Gente se serve io ho un cazzo di gomma a sei assi con giroscopio. Non esco mai di casa senza. Nel caso estremo in cui trovassi una donna senza cazzo almeno rimedio...\""
                   ]
                 }
               ]
@@ -5087,52 +4977,80 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "VarScene"
               },
               "parameters": [
-                "Button",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
+                "isDialogo",
+                "=",
+                "5"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "HideLayer"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"Dialoghi\""
+                "Button",
+                ""
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "textDialogo",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "isDialogo",
-                "False"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialoghi\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "textDialogo",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isDialogo",
+                    "False"
+                  ]
+                }
               ]
             }
           ]
@@ -5390,16 +5308,6 @@
               "parameters": [
                 "",
                 "\"Dialoghi\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"pompa\""
               ]
             }
           ],
@@ -6971,8 +6879,8 @@
           "layer": "Dialoghi",
           "name": "textDialogo",
           "persistentUuid": "958c4073-6048-4980-bd9b-985c670f3a17",
-          "width": 592,
-          "x": 274,
+          "width": 566,
+          "x": 299,
           "y": 621,
           "zOrder": 21,
           "numberProperties": [],
@@ -9089,7 +8997,7 @@
                   "parameters": [
                     "textDialogo",
                     "=",
-                    "\"AH! Che idea sarebbe fare dei bicchieri della stessa forma e venderli a prezzo esoso a ricchi bimbiminchia annoiati dalla cilindrita'!\""
+                    "\"Il fusibile di irradiamento fotonico concavo per bombe grosse! Pensavo fosse solo teoria... Comunque vi ho raccontato cose mi è successo al cazzo ultimamente?\""
                   ]
                 },
                 {
@@ -11024,8 +10932,8 @@
           "name": "Button",
           "persistentUuid": "2fc02ba8-14c1-48a7-a05d-04c35c5e1e76",
           "width": 126,
-          "x": 640,
-          "y": 736,
+          "x": 696,
+          "y": 737,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -16577,7 +16485,7 @@
               "parameters": [
                 "textDialogo",
                 "=",
-                "\"COSA SUCCESSO MIA DOGANA! \nPreso fuoco carta punti CONAD di \nmoglie ora chi la sente.\""
+                "\"COSA SUCCESSO MIA DOGANA! \""
               ]
             },
             {
@@ -16613,7 +16521,7 @@
               "parameters": [
                 "textDialogo",
                 "=",
-                "\"Meglio in brigata Wagner. Meno rischi.\""
+                "\"Mai mettere bomba e aretini in stesso posto...me lo avevano detto.\nMeglio in brigata Wagner. Meno rischi. \""
               ]
             },
             {
@@ -16685,7 +16593,7 @@
               "parameters": [
                 "textDialogo",
                 "=",
-                "\"Si. Oggi prende giorno libero. \nMagari faccio passeggiata in parco.\nPrima che torno a casa e dico di tessera punti...\""
+                "\"Si. Oggi prende giorno libero. \nMagari faccio passeggiata in parco.\n\""
               ]
             },
             {
@@ -16966,6 +16874,15 @@
             },
             {
               "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer1\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::AddObjectPositionXTween"
               },
               "parameters": [
@@ -16977,7 +16894,25 @@
                 "1000",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer1\"",
+                ">=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Scene"
@@ -16986,6 +16921,15 @@
                 "",
                 "\"Ufo\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"timer1\""
               ]
             }
           ]
